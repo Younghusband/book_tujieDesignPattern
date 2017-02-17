@@ -1,8 +1,8 @@
-package com.book.part1.chapter3.test;
+package com.book.part2.chapter3.test;
 
-import com.book.part1.chapter3.demo.AbstractDisplay;
-import com.book.part1.chapter3.demo.CharDisplay;
-import com.book.part1.chapter3.demo.StringDisplay;
+import com.book.part2.chapter3.demo.AbstractDisplay;
+import com.book.part2.chapter3.demo.CharDisplay;
+import com.book.part2.chapter3.demo.StringDisplay;
 
 /************************************************
     * Description: 

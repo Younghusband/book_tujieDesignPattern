@@ -1,4 +1,4 @@
-package com.book.part1.chapter3.practice;
+package com.book.part2.chapter3.practice;
 
 import java.io.FileInputStream;
 import java.io.InputStream;

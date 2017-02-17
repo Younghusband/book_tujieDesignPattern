@@ -1,4 +1,4 @@
-package com.book.part1.chapter3.demo;
+package com.book.part2.chapter3.demo;
 /************************************************
     * Description: 
     * @author    Vermouth.yf  
