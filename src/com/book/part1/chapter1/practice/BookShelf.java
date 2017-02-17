@@ -17,7 +17,6 @@ import java.util.List;
 public class BookShelf implements Aggregate{
 //    private Book[] books;
 	private List<Book> books;
-    private int last = 0;
     
     public BookShelf(){
     	books = new ArrayList<Book>();
@@ -28,12 +27,11 @@ public class BookShelf implements Aggregate{
     }
     
     public int getLength(){
-    	return this.last;   //因为每次添加完书后都会last++
+    	return books.size();   
     }
     
     public void appendBook(Book book){
         this.books.add(book);
-        last++;
     }
     
 	@Override
