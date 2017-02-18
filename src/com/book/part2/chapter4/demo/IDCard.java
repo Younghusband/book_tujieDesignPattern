@@ -8,7 +8,7 @@ package com.book.part2.chapter4.demo;
 public class IDCard extends Product {
     private String owner;
     
-    public IDCard(String owner){
+    IDCard(String owner){  //注意这里 不用public的意图
     	System.out.println("制作"+owner+" 的ID卡。");
     	this.owner = owner;
     }
