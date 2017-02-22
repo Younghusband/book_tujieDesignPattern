@@ -1,4 +1,4 @@
-package com.book.part3.chapter7.demo;
+package com.book.part3.chapter7.practice;
 /************************************************
     * Description: 
     *    has builder 
@@ -15,8 +15,9 @@ public class Director {
     }
     
     public void construct(){
-    	builder.makeTitle("Greeting");
-    	builder.makeString("从早上至下午");
+    	builder.makeString("测试makeTitle的保险措施");  //这个也不会被调用
+    	builder.makeTitle("改良版Greeting去死吧");
+    	builder.makeString("从早上至afternoon.");
     	builder.makeItems(new String[]{
     		"早上好。",
     		"下午好。"
@@ -28,6 +29,7 @@ public class Director {
     			"再见。"
     	});
     	builder.close();
+    	builder.makeString("测试close方法！！");   //不会被调用
     }
     
 }
